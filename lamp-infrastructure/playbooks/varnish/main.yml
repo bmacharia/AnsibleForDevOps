@@ -16,3 +16,4 @@
         src: "templates/default.vcl.j2"
         dest: "/etc/varnish/default.vcl"
       notify: restart varnish
+      
